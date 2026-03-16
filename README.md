@@ -9,27 +9,29 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 ## DESIGN STEPS
 ### STEP 1: 
 
-Write your own steps
+Obtain a labeled text dataset where each word is tagged with its entity label (e.g., Person, Location, Organization, O).
+
 
 ### STEP 2: 
 
+Tokenize the sentences into words, convert them into numerical representations, and create vocabulary indices.
 
 
 ### STEP 3: 
 
-
+Convert each word into dense vectors using embedding techniques such as Word Embedding from libraries like Word2Vec or GloVe.
 
 ### STEP 4: 
 
-
+Construct an LSTM-based neural network consisting of an embedding layer, one or more LSTM layers, and a dense layer with a softmax activation for entity classification.
 
 ### STEP 5: 
 
-
+Train the LSTM using the labeled sequences to learn contextual relationships between words and their corresponding entity tags.
 
 ### STEP 6: 
 
-
+Apply the trained model to new sentences to identify named entities and evaluate performance using metrics such as precision, recall, and F1-score.
 
 
 
